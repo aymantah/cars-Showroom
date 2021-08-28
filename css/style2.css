@@ -1,0 +1,156 @@
+/* Décrire l'animation */
+@keyframes slideDownFadeIN {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Foncer l'arrière-plan de la fenêtre modale */
+.modal {
+  display: none; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Afficher la fenêtre modale lorsqu'elle est ciblée par un lien supprimer */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* la fenêtre modale  */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Le contenu de la modale */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  animation-name: slideDownFadeIN;
+  animation-duration: 0.5s;
+}
+
+/* Bouton servant à fermer la fenêtre modale */
+.closebtn {
+  text-decoration: none;
+  position: fixed;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #bf641394;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#q8001 {
+  display: flex;
+  margin: 30px 150px;
+}
+#q8002 {
+  margin: 50px 20px;
+}
+#q8003 {
+  margin: 70px 200px;
+}
+#q8004 {
+  display: flex;
+  margin: 30px 210px;
+}
+#q8005 h3 {
+  text-align: center!important;
+  margin-top: 50px;
+  border-top: 5px solid #bf641394;
+    border-bottom: 5px solid #bf641394;
+    margin: 50px 230px;
+    padding: 10px 0px;
+}
+#q8006 {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+#q8006 p {
+  color: black;
+}
+#q8003 p {
+  color: black;
+  font-size: 20px;
+
+}
+.q8p1 {
+  position: relative;
+  top: -240px;
+  left: -25px;
+}
+.q8p2 {
+  position: relative;
+  top: -85px;
+  left: 55px;
+}
+.q8p3 {
+  position: relative;
+  top: -100px;
+  left: 84px;
+}
+#q8002 p {
+  color: black;
+  font-size: 20px;
+}
+.q8p4 {
+  position: relative;
+  top: -50px;
+  left: 126px;
+}
+.q8p5 {
+  position: relative;
+  top: -290px;
+  left: 34px;
+}
+.q8p6 {
+  position: relative;
+  top: -85px;
+  left: -160px;
+}
+.q8p7 {
+  position: relative;
+  top: -55px;
+  left: -415px;
+}
+.q8p8 {
+  position: relative;
+  top: -210px;
+  left: -130px;
+}
+.q8p9 {
+  position: relative;
+  top: -175px;
+  left: 280px;
+}
+.q8p10 {
+  position: relative;
+  top: -145px;
+  left: 78px;
+}
